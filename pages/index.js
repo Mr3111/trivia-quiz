@@ -65,7 +65,7 @@ function HomePage() {
 							Easy
 						</option>
 						<option key='Medium' value='medium'>
-							Med
+							MEDIUM
 						</option>
 						<option key='Hard' value='hard'>
 							Hard
