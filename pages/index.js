@@ -11,13 +11,13 @@ function HomePage() {
 	const [difficulty, setDifficulty] = useState("");
 	const [error, setError] = useState(false);
 
-	useEffect(() => {
-		ctx.resetDetails();
-	}, [ctx])
+// 	useEffect(() => {
+// 		ctx.resetDetails();
+// 	}, [ctx])
 
 	const handleChange = text => {
 		if (text) {
-			ctx.updateUserName("Rishab");
+			ctx.updateUserName(text);
 		} else {
 			ctx.updateUserName("");
 		}
