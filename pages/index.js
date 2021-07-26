@@ -17,7 +17,7 @@ function HomePage() {
 
 	const handleChange = text => {
 		if (text) {
-			ctx.updateUserName(text);
+			ctx.updateUserName("Rishab");
 		} else {
 			ctx.updateUserName("");
 		}
